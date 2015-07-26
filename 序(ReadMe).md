@@ -4,7 +4,6 @@
 你可以下载这些文件.
 最后，如果你找到了你想要的东西.
 不用感谢我.请叫我雷锋.
-==========================================
 # My share
 I am tyr2002 from Baidu Tieba.
 I share my resources in this website.
