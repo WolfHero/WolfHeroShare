@@ -4,4 +4,9 @@
 我是WolfHero，你可以叫我沃尔夫。我在Bilibili制作一些关于Nintendo Switch的视频，你可以点击<a href="https://space.bilibili.com/12256286" target="_blank">这里</a>来访问我的主页～
 当然如果能关注就再好不过啦
 <br>
-另外鄙人<a href="https://www.wolfhero.top" target="_blank">小站</a>也欢迎参观，有一些前端运维之类的经验说不定能帮到你
+另外鄙人<a href="https://www.wolfhero.top" target="_blank">小站</a>也欢迎参观(已关闭），有一些前端运维之类的经验说不定能帮到你。
+
+##### 2022年11月5日更新
+许久过后再次使用这个仓库，打算把它用来放置自己视频里的一些文字版本教程，希望他们可以帮到你。
+
+另外小站因为服务器租金太贵了（一年60刀），负担困难所以关闭了，接下来博客可能采用国内的低价服务器或者直接使用GitHub Pages。
