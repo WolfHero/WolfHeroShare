@@ -15,7 +15,7 @@
 >因为本文面向的群体可能是Linux新手甚至第一次接触Linux，某些方面可能讲的比较啰嗦，如果你较为了解Linux，请多多海涵。
 >——WolfHero
 #### 安装WSL
-> 如果你已经拥有完成网络配置的Linux服务器或者虚拟机，可以直接跳转至[[#安装code-server]]。
+> 如果你已经拥有完成网络配置的Linux服务器或者虚拟机，可以直接跳转至[安装code-server](https://github.com/WolfHero/WolfHeroShare/blob/master/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%96%B9%E6%A1%88%EF%BC%9AWSL%2Bcode-server%2B%E8%8A%B1%E7%94%9F%E5%A3%B3.md#%E5%AE%89%E8%A3%85code-server)。
 > 要安装使用WSL，你需要Windows 10及以上的操作系统。
 
 首先我们需要安装Linux环境，这里我比较推荐WSL (Windows Subsystem for Linux，适用于Linux的 Windows子系统)，因为对于初学者来说，WSL的安装以及网络配置更加简单。以下为WSL的安装教程：
