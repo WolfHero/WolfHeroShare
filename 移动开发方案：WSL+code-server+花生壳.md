@@ -18,7 +18,7 @@
 
 #### 安装WSL
 
-> 如果你已经拥有完成网络配置的Linux服务器或者虚拟机，可以直接跳转至[[#安装code-server]]。
+> 如果你已经拥有完成网络配置的Linux服务器或者虚拟机，可以直接跳转至[安装code-server](https://github.com/WolfHero/WolfHeroShare/blob/master/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%96%B9%E6%A1%88%EF%BC%9AWSL+code-server+%E8%8A%B1%E7%94%9F%E5%A3%B3.md#%E5%AE%89%E8%A3%85code-server)。
 > 要安装使用WSL，你需要Windows 10及以上的操作系统。
 
 首先我们需要安装Linux环境，这里我比较推荐WSL (Windows Subsystem for Linux，适用于Linux的 Windows子系统)，因为对于初学者来说，WSL的安装以及网络配置更加简单。以下为WSL的安装教程：
@@ -156,7 +156,7 @@ ubuntu run sudo /etc/init.wsl start
 ```
 上述代码中`wsl -t Ubuntu`部分用于终止WSL。
 
-此时你可以双击RestartWSL.bat重启WSL，然后在浏览器中查看code-server是否正常运行，如果不能顺利看到code-server界面的话，请在命令提示符中运行`wsl`然后输入`su`切换到root用户重新开始这一阶段的操作。指路：[[#设置开机启动WSL以及code-server]]
+此时你可以双击RestartWSL.bat重启WSL，然后在浏览器中查看code-server是否正常运行，如果不能顺利看到code-server界面的话，请在命令提示符中运行`wsl`然后输入`su`切换到root用户重新开始这一阶段的操作。指路：[设置开机启动WSL以及code-server](https://github.com/WolfHero/WolfHeroShare/blob/master/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%96%B9%E6%A1%88%EF%BC%9AWSL+code-server+%E8%8A%B1%E7%94%9F%E5%A3%B3.md#%E8%AE%BE%E7%BD%AE%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8wsl%E4%BB%A5%E5%8F%8Acode-server)
 #### 花生壳安装
 > 如果你的code-server安装在公网环境内，则可跳过这一步，相应的是，你需要开放防火墙端口以及申请证书开启HTTPS，请参考官方文档[使用Let's Encrypt与Web服务端](https://coder.com/docs/code-server/latest/guide#using-lets-encrypt-with-caddy)。  
 > *（外网设备在非HTTPS下访问code-server可能会使部分功能无法正常运转）*  
@@ -191,7 +191,7 @@ ubuntu run sudo /etc/init.wsl start
 
 code-server是开源项目，code-server会从[Open VSX Registry](https://open-vsx.org/) 上获取插件，所以你在插件商店搜索到的插件目录可能和VSCode不完全相同。
 
-同样，因为网络问题，有可能你安装插件时会卡在Installing界面，此时切换网络环境，比如连接手机热点，或者跳转至[[#WSL内连接Clash代理]]。
+同样，因为网络问题，有可能你安装插件时会卡在Installing界面，此时切换网络环境，比如连接手机热点，或者跳转至[WSL内连接Clash代理](https://github.com/WolfHero/WolfHeroShare/blob/master/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%96%B9%E6%A1%88%EF%BC%9AWSL+code-server+%E8%8A%B1%E7%94%9F%E5%A3%B3.md#wsl%E5%86%85%E8%BF%9E%E6%8E%A5clash%E4%BB%A3%E7%90%86)。
 
 另外还需要注意的是，如果你要通过安装Python插件来编写Python程序，你需要保证你的WSL内有安装Python，C或Java也同理。
 
