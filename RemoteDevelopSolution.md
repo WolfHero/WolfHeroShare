@@ -3,6 +3,15 @@
 >因为本文面向的群体可能是Linux新手甚至第一次接触Linux，某些方面可能讲的比较啰嗦，如果你是新手，我希望看完这篇比较长的教程后你可以学会通过自己尝试来解决问题。如果你已经较为了解Linux，也请指出你认为的不足以及理由，作者深表感谢。  
 >——WolfHero
 
+#### 目录
+1.[安装WSL](https://github.com/WolfHero/WolfHeroShare/blob/master/RemoteDevelopSolution.md#%E5%AE%89%E8%A3%85wsl)  
+2.[安装code-server](https://github.com/WolfHero/WolfHeroShare/blob/master/RemoteDevelopSolution.md#%E5%AE%89%E8%A3%85code-server)  
+3.[设置开机启动WSL以及code-server](https://github.com/WolfHero/WolfHeroShare/blob/master/RemoteDevelopSolution.md#%E8%AE%BE%E7%BD%AE%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8wsl%E4%BB%A5%E5%8F%8Acode-server)  
+4.[安装花生壳](https://github.com/WolfHero/WolfHeroShare/blob/master/RemoteDevelopSolution.md#安装花生壳)  
+5.[配置开发环境、安装插件](https://github.com/WolfHero/WolfHeroShare/blob/master/RemoteDevelopSolution.md#%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6)  
+6.[更多玩法](https://github.com/WolfHero/WolfHeroShare/blob/master/RemoteDevelopSolution.md#%E6%9B%B4%E5%A4%9A%E7%8E%A9%E6%B3%95)  
+7.[已知问题与解决方案](https://github.com/WolfHero/WolfHeroShare/blob/master/RemoteDevelopSolution.md#%E5%B7%B2%E7%9F%A5%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
+
 #### 安装WSL
 
 > 如果你已经拥有完成网络配置的Linux服务器或者虚拟机，可以直接跳转至[安装code-server](https://github.com/WolfHero/WolfHeroShare/blob/master/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%96%B9%E6%A1%88%EF%BC%9AWSL+code-server+%E8%8A%B1%E7%94%9F%E5%A3%B3.md#%E5%AE%89%E8%A3%85code-server)。
@@ -144,7 +153,7 @@ ubuntu run sudo /etc/init.wsl start
 上述代码中`wsl -t Ubuntu`部分用于终止WSL。
 
 此时你可以双击RestartWSL.bat重启WSL，然后在浏览器中查看code-server是否正常运行，如果不能顺利看到code-server界面的话，请在命令提示符中运行`wsl`然后输入`su`切换到root用户重新开始这一阶段的操作。指路：[设置开机启动WSL以及code-server](https://github.com/WolfHero/WolfHeroShare/blob/master/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%96%B9%E6%A1%88%EF%BC%9AWSL+code-server+%E8%8A%B1%E7%94%9F%E5%A3%B3.md#%E8%AE%BE%E7%BD%AE%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8wsl%E4%BB%A5%E5%8F%8Acode-server)
-#### 花生壳安装
+#### 安装花生壳
 > 如果你的code-server安装在公网环境内，则可跳过这一步，相应的是，你需要开放防火墙端口以及申请证书开启HTTPS，请参考官方文档[使用Let's Encrypt与Web服务端](https://coder.com/docs/code-server/latest/guide#using-lets-encrypt-with-caddy)。  
 > *（外网设备在非HTTPS下访问code-server可能会使部分功能无法正常运转）*  
 
